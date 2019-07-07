@@ -1,0 +1,736 @@
+{
+  "settings": {
+    "name": "Muebles Premium",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "spacem",
+      "title": "SpaceM",
+      "styling": {
+        "primaryColor": "#D901ED",
+        "secondaryColor": "#46004C",
+        "successColor": "#2BE080",
+        "infoColor": "#1A5CEB",
+        "warningColor": "#E0C119",
+        "dangerColor": "#EB5A1A",
+        "titleFont": "Arapey",
+        "subtitleFont": "Lato",
+        "textFont": "Lato",
+        "isRoundedButtons": true
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.3",
+    "siteFonts": [],
+    "favicon": "",
+    "noImageResize": "",
+    "scrollAnimation": "",
+    "siteUrl": "http://mueblespremium.cl",
+    "google-analytics": "",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on",
+    "uniqCompNum": 24,
+    "versionPublish": "4.10.3"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Muebles Premium",
+        "meta_descr": "Empresa enfocada en la reparacion y fabricación a medida de muebles",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": "0.8",
+            "fontName": {},
+            "fontColor": "#989898",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">SERVICIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">nUESTRO TRABAJO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">cONTACTANOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"tel:+56 9 5850 4137\">+56 9 5850 4137</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-1-73x33.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-7"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": true,
+            "showMedia": true,
+            "imageSize": "50",
+            "inverse": true,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.16.33-3-1080x984.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.35
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.16.33-667x578.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=axMabrSDrI8",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Muebles</i></span><br>Premium",
+          "text": "Somos una empresa enfocada en la Reparación de tapicería para todo tipo de muebles. Tales como Livings, Futones. Fabricación a medida.<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Contactenos</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-a"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "showBullets": true,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/testimonials2.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#eee",
+            "overlayOpacity": 0.75,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "showText": true,
+                "showTitle": true,
+                "image": "@THEME_PATH@/components/_images/header1.jpg",
+                "title": "George Nelson",
+                "text": "\"La alegría simple de tomar una idea en tus propias manos y darle la forma apropiada es emocionante.\""
+              },
+              {
+                "active": false,
+                "showText": true,
+                "showTitle": true,
+                "image": "@THEME_PATH@/components/_images/header1.jpg",
+                "title": "Maks Heard",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vitae, quasi dignissimos quo ipsam non, aliquam cupiditate facilis similique laboriosam optio mollitia sunt sed minima."
+              },
+              {
+                "active": false,
+                "showText": true,
+                "showTitle": true,
+                "image": "@THEME_PATH@/components/_images/header1.jpg",
+                "title": "Elsa McGregor",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam mollitia incidunt vero cupiditate obcaecati iusto tempora unde! Numquam officiis, quae adipisci quam laudantium nulla modi."
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "testimonials2",
+          "_anchor": "testimonials2-f"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "<i>Servicios</i>",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-j"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showImages": true,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/2.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title1": "Reparación",
+          "subtitle1": "Project manager",
+          "text1": "Vamos a tu domicilio para reparar ese mueble que tanto te gusta. Una vez lo tengas sentirás esa misma emoción que alguna vez sentiste por él.",
+          "media1": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/team-item-1.jpg",
+              "active": true
+            }
+          },
+          "icons1": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title2": "Fabricación a medida",
+          "subtitle2": "Web-designer",
+          "text2": "Confeccionamos el mueble de tus sueños. Con nuestras manos haremos posible ese deseo que tienes de adornar tu hogar",
+          "media2": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/team-item-2.jpg",
+              "active": true
+            }
+          },
+          "icons2": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title3": "Decoración",
+          "subtitle3": "Art-Director",
+          "text3": "Nos encanta decorar tu hogar, tu oficina. Con nuestros muebles te garantizamos que quedará hermoso.",
+          "media3": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.23-2-1080x984.jpg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "icons3": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title4": "mitchel jobs",
+          "subtitle4": "Programmer",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
+          "media4": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/team_item_4.jpg"
+            }
+          },
+          "icons4": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-b"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "<i>Nuestro Trabajo</i>",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-k"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "spacing": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.22-1-1080x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.22-1-1080x1080-800x800.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.22-2-750x750.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.22-2-750x750-750x750.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.22-750x612.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.22-750x612-750x612.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.23-1-1080x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.23-1-1080x1080-800x800.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.16.33-3-1080x984.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.16.33-3-1080x984-800x729.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.23-750x465.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.23-750x465-750x465.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.23-1-1080x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.23-1-1080x1080-800x800.jpg",
+                "caption": "Type caption here",
+                "active": true,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.23-750x465.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.23-750x465-750x465.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.22-1-1080x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.14.22-1-1080x1080-800x800.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.16.33-667x578.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.16.33-667x578-667x578.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.11.51-2-581x1032.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.11.51-2-581x1032-581x1032.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.11.31-1032x581.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.11.31-1032x581-800x450.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.11.32-581x1032.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.11.32-581x1032-581x1032.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.11.33-1-1080x810.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.11.33-1-1080x810-800x600.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.11.50-1032x581.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.11.50-1032x581-800x450.jpg",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg",
+          "allItem": "All",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-n"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-07-05-at-22.16.33-3-1080x984.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ccc",
+            "overlayOpacity": 0.75,
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118"
+            }
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Haznos tu consulta",
+          "text": "Lorem ipsum dolor sit amet, consec tetur adip iscing elit. Curabitur feugiat feugiat and brane in bibendum ",
+          "form": {
+            "title": "MESSAGE",
+            "action": "sebastian.castillo.s@gmail.com",
+            "alerts": {
+              "success": "Gracias por tu consulta te responderemos a la brevedad."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nombre"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Teléfono"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensaje"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">Consulta</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "subscribe2",
+          "_anchor": "subscribe2-g"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#212121"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "Muebles Premium - Reparación y Fabricación a medida - Santiago, Chile<br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-i"
+        }
+      ]
+    }
+  }
+}
